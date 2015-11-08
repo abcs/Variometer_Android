@@ -1,3 +1,9 @@
+/**
+ * @file MainActivity.java
+ *
+ * @brief      Az indító képernyő.
+ * @details    Az alkalmazás indításakor az ebben lévő MainActivity osztály példányosodik és fut le.
+ */
 package eu.ablonczy.csaba.variometer;
 
 import android.content.Context;
@@ -26,6 +32,9 @@ import java.util.Vector;
 import java.util.concurrent.TimeUnit;
 
 
+/**
+ * Az alkalmaz&aacute;s ind&iacute;t&aacute;sakor ez az oszt&aacute;ly p&eacute;ld&aacute;nyosodik &eacute;s fut le.
+ */
 public class MainActivity extends AppCompatActivity {
     public class FlyingResponse {
         public Date flyingDate;

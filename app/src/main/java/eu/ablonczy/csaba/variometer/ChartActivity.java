@@ -1,3 +1,9 @@
+/**
+ * @file ChartActivity.java
+ *
+ * @brief      Az diagramot megjelenítő képernyő.
+ * @details    Amennyiben érkezik adat a webszolgáltatástól, ezen a képernyőn jelenik meg grafikonon.
+ */
 package eu.ablonczy.csaba.variometer;
 
 import android.support.v7.app.AppCompatActivity;
@@ -18,7 +24,15 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Collections;
 
-
+/**
+ * Amennyiben &eacute;rkezik adat a webszolg&aacute;ltat&aacute;st&oacute;l, ezen a k&eacute;perny&#x151;n jelenik meg grafikonon.
+ *
+ * P&eacute;lda k&oacute;d:
+ * @code
+ *     Intent myIntent = new Intent(this, ChartActivity.class);
+ *     this.startActivity(myIntent);
+ * @endcode
+ */
 public class ChartActivity extends AppCompatActivity {
 
     private View mChart;
